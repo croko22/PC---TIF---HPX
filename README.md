@@ -1,6 +1,6 @@
-### Comparación de Frameworks de Programación Paralela: HPX, MPI, Pthreads y OpenMP  
+# Comparación de Frameworks de Programación Paralela: HPX, MPI, Pthreads y OpenMP  
 
-**Integrantes**  
+## Autores  
 - **Kevin Joaquin Chambi Tapia** (kchambit@unsa.edu.pe)  
 - **Juan Diego Huamani Vilca** (jhuamaniv@unsa.edu.pe)  
 - **Victor Alejandro Quicaño Miranda** (vquicano@unsa.edu.pe)  
@@ -11,7 +11,7 @@
 
 ---
 
-### Descripción  
+## Descripción  
 Este proyecto analiza y compara cuatro frameworks de programación paralela: **HPX**, **MPI**, **Pthreads** y **OpenMP**, evaluando su desempeño en tres aplicaciones:  
 1. **Multiplicación de matrices**  
 2. **Estimación de π con Monte Carlo**  
@@ -21,7 +21,7 @@ Se miden métricas como tiempo de ejecución, escalabilidad, uso de memoria y ov
 
 ---
 
-### Resultados Clave  
+## Resultados Clave  
 - **HPX** se destaca en escalabilidad y eficiencia en entornos distribuidos.  
 - **MPI** es robusto pero tiene mayor complejidad.  
 - **Pthreads** ofrece control granular, pero es menos escalable.  
@@ -29,7 +29,15 @@ Se miden métricas como tiempo de ejecución, escalabilidad, uso de memoria y ov
 
 ---
 
-### Estructura del Proyecto  
+## Estructura del Proyecto  
 - **/src**: Código fuente de las implementaciones.  
 - **/docs**: Documentación y resultados obtenidos.  
 - **/tests**: Casos de prueba para evaluar rendimiento.  
+
+---
+
+## Cómo Usar  
+1. Clone el repositorio:  
+   ```bash
+   git clone https://github.com/usuario/proyecto-paralelismo.git
+   cd proyecto-paralelismo
