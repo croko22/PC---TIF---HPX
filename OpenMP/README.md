@@ -1,5 +1,4 @@
-# TIF
-
+# OpenMP
 ## Requisitos
 
 - Compilador GCC con soporte para OpenMP
@@ -14,7 +13,3 @@
 
 ## Ejecución
 ./run_all.sh
-
-# TIF
-
-## Integrantes
